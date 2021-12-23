@@ -1,0 +1,191 @@
+*{
+      margin: 0px;
+      padding: 0px;
+}
+h1{
+    font-size: 5.625rem ;
+    font-family: 'Sacramento', cursive;
+    padding-top: 100px;
+    color: #1A374D;
+
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    padding-top:20px;
+    color: #406882;
+    
+}
+h3{
+    font-size: 2.5rem;
+    padding: 20px 0px 50px 0px;
+    /* padding 20px 0px
+      top/bottom left/right
+    */
+    font-weight: 400;
+    color: #406882;
+
+}
+
+h4{
+    font-size: 1.5rem;
+
+    color: #1A374D
+}
+
+p{
+    
+    width: 70%;
+    margin: auto;
+    line-height: 2;
+}
+hr{
+    width: 5%;
+    margin: 100px auto 100px auto;
+    /* border-style: dotted ;
+    border-bottom: none;
+    border-width: 8px;
+    border-color: #1A374D; */
+
+    border: 8px dotted #1A374D;
+    border-bottom: none;
+}
+   /* Top-container */
+
+.top{
+    padding-top: 100px;
+    margin: 0px;
+    background-color: #B1D0E0;
+    text-align: center;
+    position: relative;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 230px;
+    top: 80px;
+    
+}
+.bottom-cloud{
+    position:absolute;
+    left: 200px;
+    top: 400px;
+
+
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+/* middle-container */
+
+/* ----------------------------------------------------------------profile section----------------------------------------------------------- */
+.profile{
+    text-align: center;
+    Padding-top: 100px;
+}
+
+.profile img{
+   border-radius:100%;
+
+}
+
+.profile p{
+     width: 30%;
+     margin: auto;
+
+}
+
+/* ----------------------------------------------------------------skill section----------------------------------------------------------- */
+
+.skills{
+    text-align: center;
+}
+
+.skill-row p {
+    width: 100%;
+}
+
+.skill-row img{
+    width: 25%;
+
+}
+
+.skill-row {
+    margin: 0px auto 100px auto;
+    width: 50%;
+    text-align:left;
+
+}
+
+.computer{
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+
+}
+
+.chillies{
+    float: right;
+    margin-left: 30px;
+
+}
+
+/* cta section */
+.cta {
+    text-align: center;
+
+}
+.cta p{
+    width: 500px;
+    padding: 50px 0px 50px 0px;
+    
+}
+
+.cta-btn{
+    
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to bottom, #11cdd4, #0f6d70);
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;   
+    color: white; 
+
+    
+    
+}
+
+.cta-btn:hover{
+    background-image: linear-gradient(to bottom, #11cdd4, #3af5fc);
+
+        
+}
+/* bottom-container */
+
+.bottom {
+    text-align: center;
+    background-color: #034d50;
+    font-family: 'Montserrat', sans-serif;
+    padding:50px 20px;
+    margin-top: 100px;
+
+}
+.bottom a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+.bottom p{
+    color: pink;
+}
+
+.bottom a:hover{
+    color: #81b6b8;
+
+}
